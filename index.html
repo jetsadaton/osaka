@@ -3,245 +3,224 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kansai Trip Master Plan 2026</title>
+    <title>Ultimate Japan Road Trip 2026</title>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
-        body { font-family: 'Kanit', sans-serif; line-height: 1.6; color: #333; margin: 0; background: #f0f2f5; }
-        header { background: linear-gradient(135deg, #ff4b2b, #ff416c); color: white; padding: 40px 20px; text-align: center; }
-        .container { max-width: 1000px; margin: -30px auto 40px; padding: 0 15px; }
-        .day-card { background: white; border-radius: 15px; padding: 25px; margin-bottom: 25px; box-shadow: 0 10px 20px rgba(0,0,0,0.08); position: relative; overflow: hidden; }
-        .day-number { background: #ff416c; color: white; padding: 5px 15px; border-radius: 20px; display: inline-block; margin-bottom: 15px; font-weight: 600; }
-        h2 { margin: 0 0 15px 0; color: #2c3e50; border-bottom: 2px solid #eee; padding-bottom: 10px; }
+        body { font-family: 'Kanit', sans-serif; line-height: 1.6; color: #333; margin: 0; background: #f4f4f9; }
+        header { background: #1e272e; color: white; padding: 40px 20px; text-align: center; border-bottom: 5px solid #ff3f34; }
+        .flight-bar { background: #485460; color: #fff; padding: 10px; font-size: 0.85rem; text-align: center; }
+        .container { max-width: 1000px; margin: 20px auto; padding: 0 15px; }
+        .day-card { background: white; border-radius: 15px; margin-bottom: 30px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); overflow: hidden; border-left: 8px solid #ff3f34; }
+        .day-header { background: #f1f2f6; padding: 15px 25px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #ddd; }
+        .day-title { font-weight: 600; color: #d63031; font-size: 1.2rem; }
+        .stay-tag { background: #ffeaa7; color: #d35400; padding: 3px 12px; border-radius: 20px; font-size: 0.8rem; font-weight: bold; }
+        .day-body { padding: 25px; }
         .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
-        .section-title { font-weight: 600; color: #ff416c; display: block; margin-bottom: 5px; }
-        .link-box { margin-top: 15px; background: #f8f9fa; padding: 15px; border-radius: 10px; border-left: 4px solid #007bff; }
-        .btn-link { color: #007bff; text-decoration: none; font-weight: 500; }
-        .btn-link:hover { text-decoration: underline; }
-        .note { background: #fff3cd; padding: 10px; border-radius: 8px; margin-top: 15px; font-size: 0.9rem; color: #856404; }
-        @media (max-width: 600px) { .grid { grid-template-columns: 1fr; } }
+        h3 { margin-top: 0; color: #2d3436; font-size: 1.4rem; }
+        .section { margin-bottom: 15px; }
+        .section-h { font-weight: 600; color: #ff3f34; display: block; margin-bottom: 5px; text-transform: uppercase; font-size: 0.9rem; }
+        .must-do { background: #e3f2fd; padding: 10px; border-radius: 8px; border-left: 4px solid #2196f3; font-size: 0.9rem; margin-top: 10px; }
+        .nearby { background: #f8f9fa; padding: 10px; border-radius: 8px; font-size: 0.85rem; color: #636e72; }
+        .review-btn { display: inline-block; margin-top: 15px; background: #ff3f34; color: white; text-decoration: none; padding: 8px 20px; border-radius: 25px; font-size: 0.9rem; transition: 0.3s; }
+        .review-btn:hover { background: #ee5253; transform: translateY(-2px); }
+        .driving-info { background: #e8f5e9; color: #2e7d32; padding: 10px; border-radius: 8px; font-size: 0.85rem; margin-top: 10px; font-weight: 500; }
+        @media (max-width: 768px) { .grid { grid-template-columns: 1fr; } }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>🇯🇵 KANSAI MASTER PLAN 2026</h1>
-    <p>แผนเที่ยวละเอียด 8 วัน สำหรับ 3 คน (5-12 ธันวาคม)</p>
+    <h1>🇯🇵 JAPAN ROAD TRIP 2026</h1>
+    <p>แผนเที่ยวฉบับเจาะลึก 8 วัน 7 คืน | สมาชิก 3 คน</p>
 </header>
+<img url="./1.jpg">
+<div class="flight-bar">
+    ✈️ VN334: BKK(22:10) > HAN > KIX(06:55) | ✈️ VN335: KIX(10:00) > HAN > BKK(17:55)
+</div>
 
 <div class="container">
 
     <div class="day-card">
-        <div class="day-number">Day 1: 5 ธ.ค. 2026</div>
-        <h2>Osaka Landmarks & City Views</h2>
-        <div class="grid">
-            <div>
-                <span class="section-title">📍 สถานที่ / กิจกรรม:</span>
-                ปราสาทโอซาก้า (Osaka Castle), ขึ้นตึกชมวิว Harukas 300, เช็คอินย่าน Namba
-            </div>
-            <div>
-                <span class="section-title">🚆 การเดินทาง:</span>
-                รถไฟ Nankai Rapi:t (จากสนามบิน), รถไฟใต้ดิน Subway 
-            </div>
-            <div>
-                <span class="section-title">🍴 ร้านอาหารแนะนำ:</span>
-                Endo Sushi (ตลาดปลาช่วงเช้า) หรือของกินย่าน Tennoji
-            </div>
-            <div>
-                <span class="section-title">⚠️ หมายเหตุ:</span>
-                ถึงสนามบิน 06:55 น. ฝากกระเป๋าที่โรงแรมก่อนแล้วค่อยออกเที่ยว
-            </div>
+        <div class="day-header">
+            <span class="day-title">05 Dec (Sat) - Welcome Osaka</span>
+            <span class="stay-tag">Stay: Namba</span>
         </div>
-        <div class="link-box">
-            <strong>🔗 ลิงก์รีวิว:</strong> <a href="https://pantip.com/topic/42678477" class="btn-link" target="_blank">เจาะลึกที่เที่ยว Osaka</a>
+        <div class="day-body">
+            <h3>เช็คอินโอซาก้า & แสงสี Midosuji</h3>
+            <div class="grid">
+                <div class="section">
+                    <span class="section-h">📍 กิจกรรมหลัก:</span>
+                    ฝากกระเป๋า Namba, เดินเล่น Dotonbori, ถ่ายรูปป้ายกูลิโกะ, ชมไฟล้านดวงถนน Midosuji (มีเฉพาะช่วงธันวาคม)
+                    <div class="must-do">🌟 <b>Must Do:</b> ล่องเรือ Tombori River Jazz Boat ชมวิวคลองโดทงโบริยามค่ำคืน</div>
+                </div>
+                <div class="section">
+                    <span class="section-h">🍴 ร้านอาหาร & อื่นๆ:</span>
+                    มื้อเย็นปูยักษ์ <b>Kani Doraku</b> หรือราเมงมังกร <b>Kinryu Ramen</b>
+                    <div class="nearby">🔍 <b>สถานที่ใกล้เคียง:</b> ตลาด Kuromon (ของกินเยอะ), ตึก Hozenji Yokocho (ฟีลตรอกเก่า)</div>
+                </div>
+            </div>
+            <a href="https://pantip.com/topic/42013346" class="review-btn">ดูรีวิวเดินเที่ยว Osaka</a>
         </div>
     </div>
 
     <div class="day-card">
-        <div class="day-number">Day 2: 6 ธ.ค. 2026</div>
-        <h2>Universal Studios Japan (USJ)</h2>
-        <div class="grid">
-            <div>
-                <span class="section-title">📍 สถานที่ / กิจกรรม:</span>
-                สวนสนุก USJ เต็มวัน (เน้น Nintendo World & Harry Potter)
-            </div>
-            <div>
-                <span class="section-title">🚆 การเดินทาง:</span>
-                รถไฟสาย JR Yumesaki Line ลงสถานี Universal-City
-            </div>
-            <div>
-                <span class="section-title">🍴 ร้านอาหารแนะนำ:</span>
-                Mizuno Okonomiyaki (ย่าน Dotonbori หลังกลับจากสวนสนุก)
-            </div>
-            <div>
-                <span class="section-title">⚠️ หมายเหตุ:</span>
-                ต้องกดคิวเข้าโซน Nintendo ในแอป USJ ทันทีที่เข้าประตู
-            </div>
+        <div class="day-header">
+            <span class="day-title">06 Dec (Sun) - USJ Full Day</span>
+            <span class="stay-tag">Stay: Namba</span>
         </div>
-        <div class="link-box">
-            <strong>🔗 ลิงก์รีวิว:</strong> <a href="https://www.lemon8-app.com/@toeiitoeiii/7337658068194312706" class="btn-link" target="_blank">รีวิว USJ 2024 & การจองคิว</a>
+        <div class="day-body">
+            <h3>Universal Studios Japan</h3>
+            <div class="grid">
+                <div class="section">
+                    <span class="section-h">📍 กิจกรรมหลัก:</span>
+                    เก็บโซน Super Nintendo World และ Harry Potter ให้ครบ 🍄🏰
+                    <div class="must-do">🌟 <b>Must Do:</b> กินเบียร์เนย (Butterbeer) และเล่น Mario Kart: Koopa's Challenge</div>
+                </div>
+                <div class="section">
+                    <span class="section-h">🍴 ร้านอาหาร & อื่นๆ:</span>
+                    กลับมาซ่อมมื้อดึกย่าน Namba ด้วย <b>Mizuno Okonomiyaki</b>
+                    <div class="nearby">🔍 <b>แนะนำ:</b> ควรโหลดแอป USJ เพื่อจอง "Timed Entry Ticket" เข้าโซนมาริโอ้</div>
+                </div>
+            </div>
+            <a href="https://www.lemon8-app.com/@toeiitoeiii/7337658068194312706" class="review-btn">รีวิวเทคนิค USJ 2024</a>
         </div>
     </div>
 
     <div class="day-card">
-        <div class="day-number">Day 3: 7 ธ.ค. 2026</div>
-        <h2>Kyoto Heritage (East)</h2>
-        <div class="grid">
-            <div>
-                <span class="section-title">📍 สถานที่ / กิจกรรม:</span>
-                วัดน้ำใส (Kiyomizu), ย่านเมืองเก่า Gion, ศาลเจ้า Yasaka
-            </div>
-            <div>
-                <span class="section-title">🚆 การเดินทาง:</span>
-                รถไฟ Keihan หรือ Hankyu จากโอซาก้า ต่อรถบัสเกียวโต
-            </div>
-            <div>
-                <span class="section-title">🍴 ร้านอาหารแนะนำ:</span>
-                Kichi Kichi Omurice (ข้าวห่อไข่โชว์แล่ในตำนาน)
-            </div>
-            <div>
-                <span class="section-title">⚠️ หมายเหตุ:</span>
-                ร้าน Kichi Kichi ต้องจองล่วงหน้าผ่านเว็บอย่างน้อย 1 เดือน
-            </div>
+        <div class="day-header">
+            <span class="day-title">07 Dec (Mon) - Move to Kyoto</span>
+            <span class="stay-tag">Stay: Gion</span>
         </div>
-        <div class="link-box">
-            <strong>🔗 ลิงก์รีวิว:</strong> <a href="https://pantip.com/topic/41724497" class="btn-link" target="_blank">เดินเที่ยวเกียวโตฝั่งตะวันออก</a>
+        <div class="day-body">
+            <h3>ปราสาทโอซาก้า & ย่านเกอิชา</h3>
+            <div class="grid">
+                <div class="section">
+                    <span class="section-h">📍 กิจกรรมหลัก:</span>
+                    เช้าไป <b>Osaka Castle</b> (คนน้อยถ่ายรูปสวย), บ่ายนั่งรถไฟไปเกียวโต เดินเล่นถนน <b>Hanamikoji</b> ย่าน Gion
+                    <div class="must-do">🌟 <b>Must Do:</b> เดินชมศาลเจ้า Yasaka ช่วงค่ำที่เปิดโคมไฟสวยๆ</div>
+                </div>
+                <div class="section">
+                    <span class="section-h">🍴 ร้านอาหาร & อื่นๆ:</span>
+                    <b>Kichi Kichi Omurice</b> (ข้าวห่อไข่) หรือแกงกะหรี่แถว Gion
+                    <div class="nearby">🔍 <b>สถานที่ใกล้เคียง:</b> แม่น้ำ Kamo (นั่งชิลดูวิว), ตลาด Nishiki (ครัวแห่งเกียวโต)</div>
+                </div>
+            </div>
+            <a href="https://pantip.com/topic/41724497" class="review-btn">รีวิวเที่ยวเกียวโต</a>
         </div>
     </div>
 
     <div class="day-card">
-        <div class="day-number">Day 4: 8 ธ.ค. 2026</div>
-        <h2>Kyoto Bamboo & Red Torii</h2>
-        <div class="grid">
-            <div>
-                <span class="section-title">📍 สถานที่ / กิจกรรม:</span>
-                ป่าไผ่ Arashiyama, รถไฟสายโรแมนติก, ศาลเจ้าเสาแดง Fushimi Inari
-            </div>
-            <div>
-                <span class="section-title">🚆 การเดินทาง:</span>
-                รถไฟ JR Sagano Line / รถไฟสาย Keifuku (Randem)
-            </div>
-            <div>
-                <span class="section-title">🍴 ร้านอาหารแนะนำ:</span>
-                อาหารชุดเต้าหู้พรีเมียมริมแม่น้ำ หรือ ข้าวหน้าปลาไหล Hirokawa
-            </div>
-            <div>
-                <span class="section-title">⚠️ หมายเหตุ:</span>
-                ไปป่าไผ่เช้าที่สุดเท่าที่ทำได้เพื่อเลี่ยงฝูงชน
-            </div>
+        <div class="day-header">
+            <span class="day-title">08 Dec (Tue) - Kyoto Heritage</span>
+            <span class="stay-tag">Stay: Gion</span>
         </div>
-        <div class="link-box">
-            <strong>🔗 ลิงก์รีวิว:</strong> <a href="https://pantip.com/topic/36424087" class="btn-link" target="_blank">เที่ยว Arashiyama & รถไฟสายโรแมนติก</a>
+        <div class="day-body">
+            <h3>วัดน้ำใส & เสาแดงพันต้น</h3>
+            <div class="grid">
+                <div class="section">
+                    <span class="section-h">📍 กิจกรรมหลัก:</span>
+                    <b>Kiyomizu-dera</b> (วัดน้ำใส), เดินลงถนน Sannenzaka/Ninenzaka, ปิดท้ายที่ <b>Fushimi Inari</b>
+                    <div class="must-do">🌟 <b>Must Do:</b> ลองดื่มน้ำศักดิ์สิทธิ์ 3 สายที่วัดน้ำใส เพื่อขอพรโชคลาภ/รัก/สุขภาพ</div>
+                </div>
+                <div class="section">
+                    <span class="section-h">🍴 ร้านอาหาร & อื่นๆ:</span>
+                    แวะร้านกาแฟ <b>% Arabica</b> สาขา Higashiyama (วิวเจดีย์ดัง)
+                    <div class="nearby">🔍 <b>สถานที่ใกล้เคียง:</b> วัด Tofuku-ji (ถ้าใบไม้เปลี่ยนสียังมีอยู่ จะสวยมาก)</div>
+                </div>
+            </div>
+            <a href="https://www.hashigun.com/fushimi-inari-shrine-kyoto/" class="review-btn">รีวิวถ่ายรูปเสาแดง</a>
+        </div>
+    </div>
+
+    <div class="day-card" style="border-left-color: #27ae60;">
+        <div class="day-header">
+            <span class="day-title">09 Dec (Wed) - Sea of Kyoto</span>
+            <span class="stay-tag">Stay: Amanohashidate</span>
+        </div>
+        <div class="day-body">
+            <h3>Road Trip สู่อ่าวอิเนะ ⛵</h3>
+            <div class="grid">
+                <div class="section">
+                    <span class="section-h">📍 กิจกรรมหลัก:</span>
+                    รับรถเช่า ขับไป <b>Ine no Funaya</b> (หมู่บ้านชาวประมง), ขึ้นกระเช้าชมวิว <b>Amanohashidate</b>
+                    <div class="must-do">🌟 <b>Must Do:</b> นั่งเรือหางยาวชมรอบอ่าวอิเนะและให้อาหารนกนางนวลจากบนเรือ</div>
+                    <div class="driving-info">🚗 Driving Mode: 155 KM (ประมาณ 2.5 ชม.) | วิวข้างทางสวยมาก</div>
+                </div>
+                <div class="section">
+                    <span class="section-h">🍴 ร้านอาหาร & อื่นๆ:</span>
+                    อาหารทะเลสดๆ (Kaisen-don) ริมอ่าวอิเนะ
+                    <div class="nearby">🔍 <b>แนะนำ:</b> พักเรียวกังแถวนี้จะได้อาบน้ำแร่ธรรมชาติ (Onsen)</div>
+                </div>
+            </div>
+            <a href="https://pantip.com/topic/36294747" class="review-btn">รีวิว Ine & Amanohashidate</a>
+        </div>
+    </div>
+
+    <div class="day-card" style="border-left-color: #27ae60;">
+        <div class="day-header">
+            <span class="day-title">10 Dec (Thu) - Lake Biwa to Nara</span>
+            <span class="stay-tag">Stay: Nara</span>
+        </div>
+        <div class="day-body">
+            <h3>เสาโทริอิกลางน้ำ & น้องกวาง</h3>
+            <div class="grid">
+                <div class="section">
+                    <span class="section-h">📍 กิจกรรมหลัก:</span>
+                    ขับเลียบทะเลสาบบิวะ แวะถ่ายรูป <b>Shirahige Shrine</b> (เสาโทริอิกลางน้ำ) แล้วมุ่งสู่ <b>Nara Park</b> 🦌
+                    <div class="must-do">🌟 <b>Must Do:</b> แวะจุดพักรถริมทะเลสาบบิวะ (Michi-no-Eki) ซื้อผลไม้สดตามฤดูกาล</div>
+                    <div class="driving-info">🚗 Driving Mode: 195 KM | ทางด่วนวิ่งง่าย แต่ระวังความเร็ว</div>
+                </div>
+                <div class="section">
+                    <span class="section-h">🍴 ร้านอาหาร & อื่นๆ:</span>
+                    <b>โมจิเจ้าดัง Nakatanidou</b> (ที่เค้าตำโชว์) ย่านนารา
+                    <div class="nearby">🔍 <b>สถานที่ใกล้เคียง:</b> วัด Todaiji (หลวงพ่อโตองค์ใหญ่ที่สุด)</div>
+                </div>
+            </div>
+            <a href="https://pantip.com/topic/38891632" class="review-btn">รีวิวนารา & วัดโทไดจิ</a>
+        </div>
+    </div>
+
+    <div class="day-card" style="border-left-color: #27ae60;">
+        <div class="day-header">
+            <span class="day-title">11 Dec (Fri) - Tuna Show & Shopping</span>
+            <span class="stay-tag">Stay: KIX Airport Area</span>
+        </div>
+        <div class="day-body">
+            <h3>ตลาดปลาวากายาม่า & คืนรถ</h3>
+            <div class="grid">
+                <div class="section">
+                    <span class="section-h">📍 กิจกรรมหลัก:</span>
+                    <b>Kuroshio Market</b> ดูโชว์แล่ปลาทูน่า, ช้อปทิ้งทวนที่ <b>Rinku Premium Outlet</b> ก่อนคืนรถ
+                    <div class="must-do">🌟 <b>Must Do:</b> ซื้อเนื้อปลาทูน่าส่วน Otoro สดๆ ที่เพิ่งแล่เสร็จมาทานทันที</div>
+                    <div class="driving-info">🚗 Driving Mode: 125 KM | คืนรถที่สาขาสนามบิน KIX</div>
+                </div>
+                <div class="section">
+                    <span class="section-h">🍴 ร้านอาหาร & อื่นๆ:</span>
+                    BBQ อาหารทะเลในตลาดปลา หรือราเมงวากายาม่า (รสชาติเข้มข้น)
+                    <div class="nearby">🔍 <b>แนะนำ:</b> พักรร. ที่มีรถรับส่งสนามบิน (Shuttle Bus) เพื่อความสะดวกวันรุ่งขึ้น</div>
+                </div>
+            </div>
+            <a href="https://www.ttntour.com/blog/ttn-traver-japan/kuroshio-fish-market.html" class="review-btn">รีวิวตลาดปลาคุโรชิโอะ</a>
         </div>
     </div>
 
     <div class="day-card">
-        <div class="day-number">Day 5: 9 ธ.ค. 2026</div>
-        <h2>Nara Deers & Kobe Dinner</h2>
-        <div class="grid">
-            <div>
-                <span class="section-title">📍 สถานที่ / กิจกรรม:</span>
-                สวนกวาง Nara Park, วัด Todaiji, อ่าว Kobe Harborland
-            </div>
-            <div>
-                <span class="section-title">🚆 การเดินทาง:</span>
-                รถไฟ Kintetsu (ไปนารา) / รถไฟ Hanshin (ต่อไปโกเบ)
-            </div>
-            <div>
-                <span class="section-title">🍴 ร้านอาหารแนะนำ:</span>
-                Steakland Kobe (ทานเนื้อโกเบย่างระดับพรีเมียม)
-            </div>
-            <div>
-                <span class="section-title">⚠️ หมายเหตุ:</span>
-                เตรียมระวังน้องกวางอาจจะดุหน่อยเวลาเห็นขนมเซมเบ้!
-            </div>
+        <div class="day-header">
+            <span class="day-title">12-13 Dec - Flying Home</span>
+            <span class="stay-tag">End Trip</span>
         </div>
-        <div class="link-box">
-            <strong>🔗 ลิงก์รีวิว:</strong> <a href="https://pantip.com/topic/35437246" class="btn-link" target="_blank">รีวิวเนื้อโกเบ & เที่ยวนารา</a>
-        </div>
-    </div>
-
-    <div class="day-card" style="border-left: 5px solid #28a745;">
-        <div class="day-number" style="background: #28a745;">Day 6: 10 ธ.ค. 2026</div>
-        <h2>White Heron Castle & Outlet</h2>
-        <div class="grid">
-            <div>
-                <span class="section-title">📍 สถานที่ / กิจกรรม:</span>
-                ปราสาทฮิเมจิ (มรดกโลก), Mitsui Outlet Park Marine Pia
-            </div>
-            <div>
-                <span class="section-title">🚗 การเดินทาง:</span>
-                แนะนำเช่ารถขับ (1 hr) หรือใช้รถไฟ JR Shinkansen/Special Rapid
-            </div>
-            <div>
-                <span class="section-title">🍴 ร้านอาหารแนะนำ:</span>
-                หอยนางรมย่าง (Oyster) และอาหารทะเลสดๆ แถวฮิเมจิ
-            </div>
-            <div>
-                <span class="section-title">⚠️ หมายเหตุ:</span>
-                ปราสาทฮิเมจิเดินเยอะและบันไดชัน ควรใส่รองเท้าที่เดินสบาย
-            </div>
-        </div>
-        <div class="link-box">
-            <strong>🔗 ลิงก์รีวิว:</strong> <a href="https://danpladip.com/himeiji/" class="btn-link" target="_blank">ปราสาทที่สวยที่สุดในญี่ปุ่น</a>
-        </div>
-    </div>
-
-    <div class="day-card" style="border-left: 5px solid #28a745;">
-        <div class="day-number" style="background: #28a745;">Day 7: 11 ธ.ค. 2026</div>
-        <h2>Wakayama Tuna & Cat Master</h2>
-        <div class="grid">
-            <div>
-                <span class="section-title">📍 สถานที่ / กิจกรรม:</span>
-                ตลาดปลา Kuroshio, สถานีแมว Kishi Station
-            </div>
-            <div>
-                <span class="section-title">🚗 การเดินทาง:</span>
-                แนะนำเช่ารถขับจะสะดวกกว่าการรอรถบัสมาก
-            </div>
-            <div>
-                <span class="section-title">🍴 ร้านอาหารแนะนำ:</span>
-                Seafood BBQ ซื้อของสดมาปิ้งย่างเองที่ตลาดปลา
-            </div>
-            <div>
-                <span class="section-title">⚠️ หมายเหตุ:</span>
-                โชว์แล่ปลาทูน่ามีรอบ 11:00 และ 12:30 น. (ห้ามพลาด!)
-            </div>
-        </div>
-        <div class="link-box">
-            <strong>🔗 ลิงก์รีวิว:</strong> <a href="https://www.ttntour.com/blog/ttn-traver-japan/kuroshio-fish-market.html" class="btn-link" target="_blank">รีวิวตลาดปลาคุโรชิโอะ</a>
-        </div>
-    </div>
-
-    <div class="day-card">
-        <div class="day-number">Day 8: 12 ธ.ค. 2026</div>
-        <h2>Final Shopping Spree</h2>
-        <div class="grid">
-            <div>
-                <span class="section-title">📍 สถานที่ / กิจกรรม:</span>
-                ย่าน Dotonbori, Shinsaibashi, ช้อปตึกม่วง Don Quijote
-            </div>
-            <div>
-                <span class="section-title">🚆 การเดินทาง:</span>
-                Subway ทั่วโอซาก้า
-            </div>
-            <div>
-                <span class="section-title">🍴 ร้านอาหารแนะนำ:</span>
-                Kani Doraku (ร้านปูยักษ์ที่มีปูขยับได้หน้าร้าน)
-            </div>
-            <div>
-                <span class="section-title">⚠️ หมายเหตุ:</span>
-                จัดกระเป๋าเตรียมตัวกลับ พรุ่งนี้ต้องถึงสนามบินเช้ามาก (07:30 น.)
-            </div>
-        </div>
-        <div class="link-box">
-            <strong>🔗 ลิงก์รีวิว:</strong> <a href="https://pantip.com/topic/42013346" class="btn-link" target="_blank">รวมจุดช้อปปิ้งห้ามพลาด</a>
+        <div class="day-body">
+            <h3>Check-in & Duty Free</h3>
+            <p>วันที่ 12 เดินช้อปปิ้งในสนามบิน/ใกล้ที่พัก วันที่ 13 เครื่องออก 10:00 AM (ควรถึงสนามบิน 07:00 AM)</p>
+            <div class="must-do">🌟 <b>Must Buy:</b> ขนม Shiroi Koibito, Royce Chocolate และ Tokyo Banana สาขาสนามบิน</div>
         </div>
     </div>
 
 </div>
 
-<footer style="text-align: center; padding-bottom: 40px; color: #777;">
-    <p>© 2026 Kansai Trip Planner - ขอให้สนุกกับการเดินทางนะครับ!</p>
+<footer style="text-align: center; padding: 40px; color: #777; font-size: 0.85rem;">
+    <p>🚗 <b>Trip Tip:</b> อย่าลืมทำใบขับขี่สากล (แบบอนุสัญญา 1949) และพกบัตร ETC สำหรับขึ้นทางด่วน</p>
+    <p>© 2026 Japan Road Trip Master Plan</p>
 </footer>
 
 </body>
